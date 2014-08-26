@@ -24,5 +24,3 @@ mkdir -p $GOPATH/src/github.com/$1
 mkdir $GOPATH/src/github.com/$1/hello
 
 cp /vagrant/scripts/hello.go $GOPATH/src/github.com/$1/hello/hello.go
-
-cd $GOPATH/src
